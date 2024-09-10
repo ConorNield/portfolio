@@ -29,7 +29,7 @@ function App() {
                     <Routes>
                         <Route path="/portfolio" exact element={<Home />} />
                         <Route path="/projects" exact element={<Projects />} />
-                        <Route path="/blogs" exact element={<Blogs />} />
+                        <Route path="/portfolio/blogs" exact element={<Blogs />} />
                         <Route path="/skills" exact element={<Skills />} />
                         <Route path="/blogs/batting-order-optimization" exact element={<BattingOrderBlog />} />
                         <Route path="/blogs/corn-yield" exact element={<Stat429FinalProject />} />

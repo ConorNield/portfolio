@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Grid2, Box, Typography } from '@mui/material';
-import DynamicTyping from '../../components/DynamicTyping';
 import About from '../../components/About';
 import Timeline from '../../components/Timeline/Timeline';
 import homeConfig from '../../assets/configs/homeConfig';
@@ -14,9 +13,6 @@ const Home = () => {
                         <Typography variant="h1" sx={{ color: '#f5f5f5', fontSize: '3em' }}>
                             {homeConfig.greeting}
                         </Typography>
-                        <Box sx={{ textAlign: 'center', mt: 2 }}>
-                            <DynamicTyping titles={homeConfig.titles} />
-                        </Box>
                         <Box sx={{ mt: 4 }}>
                             <About about={homeConfig.about} />
                         </Box>
@@ -27,6 +23,11 @@ const Home = () => {
                 <Box sx={{ width: '100%', maxWidth: '960px', mx: 'auto' }}>
                     <Timeline items={homeConfig.workTimeline} />
                 </Box>
+            </Container>
+            <Container>
+                <Typography variant="body1" sx={{ color: '#f5f5f5', fontSize: '1em' }}>
+                    {homeConfig.source}
+                </Typography>
             </Container>
         </section>
     );

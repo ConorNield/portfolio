@@ -1,8 +1,11 @@
 import React from "react";
+import {FaLinkedinIn} from "react-icons/fa";
 
-import { AiFillCode, AiFillHome, AiOutlineGithub } from "react-icons/ai";
+import { AiFillHome} from "react-icons/ai";
 
-import { BsMedium } from "react-icons/bs";
+import { FaDatabase } from "react-icons/fa";
+
+import { FaPencilRuler } from "react-icons/fa";
 
 const menuConfig = {
   sidebarData: [
@@ -10,28 +13,28 @@ const menuConfig = {
       id: "menu-0",
       title: "Home",
       path: "/portfolio",
-      icon: <AiFillHome size={35} />,
+      icon: <AiFillHome size={30} />,
       className: "nav-text",
     },
     {
       id: "menu-1",
       title: "Projects",
-      path: "/projects",
-      icon: <AiOutlineGithub size={35} />,
+      path: "/blogs",
+      icon: <FaPencilRuler size={30} />,
       className: "nav-text",
     },
     {
       id: "menu-2",
-      title: "Blogs",
-      path: "/blogs",
-      icon: <BsMedium size={35} />,
+      title: "Skills",
+      path: "/skills",
+      icon: <FaDatabase size={30} />,
       className: "nav-text",
     },
     {
       id: "menu-3",
-      title: "Skills",
-      path: "/skills",
-      icon: <AiFillCode size={35} />,
+      title: "Linkedin",
+      path: "https://www.linkedin.com/in/conor-nield-b07221223/",
+      icon: <FaLinkedinIn size={30}/>,
       className: "nav-text",
     },
   ],

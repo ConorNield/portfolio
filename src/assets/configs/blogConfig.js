@@ -1,150 +1,73 @@
+
 import React from 'react'
-import {AiFillGithub} from "react-icons/ai";
-import {SiMedium} from "react-icons/si";
-import fastapiSklearn from "../images/fastapi_sklearn.png"
+import { MdVisibility } from 'react-icons/md';
+
 
 const blogConfig = [
     {
-        id: "blog-8",
-        title: "How to Solve Scheduling Problems in Python",
-        links: [
-            {
-                name: "article",
-                url: "https://towardsdatascience.com/how-to-solve-scheduling-problems-in-python-36a9af8de451",
-                icon: <SiMedium/>
-            }
-        ],
-        image: "https://miro.medium.com/max/700/1*VKIGzmJrYBzcPlB6USx8OA.jpeg",
-        description: "Use linear programming to minimize the difference between required and scheduled resources.",
-        target: "_blank"
-    },
-    {
-        id: "blog-7",
-        title: "Adaptive Parameters Methods for Machine Learning",
-        links: [
-            {
-                name: "article",
-                url: "https://towardsdatascience.com/adaptive-parameters-methods-for-machine-learning-6f7101a9a71",
-                icon: <SiMedium/>
-            }
-        ],
-        image: "https://miro.medium.com/max/700/1*DeZYSLcMdF58BeqemGhUhg.jpeg",
-        description: "Let's explore some methods to adapt your parameters over time.",
-        target: "_blank"
-    },
-    {
-        id: "blog-6",
-        title: "Evolutionary Feature Selection for Machine Learning",
-        links: [
-            {
-                name: "article",
-                url: "https://towardsdatascience.com/evolutionary-feature-selection-for-machine-learning-7f61af2a8c12",
-                icon: <SiMedium/>
-            }
-        ],
-        image: "https://miro.medium.com/max/1400/1*hgFe2YFnwzt_K2TfE7aSrQ.jpeg",
-        description: "Learn how to make feature selection for machine learning algorithms using evolutionary models.",
-        target: "_blank"
-    },
-    {
-        id: "blog-5",
-        title: "Real-time anomaly detection with Apache Kafka and Python",
-        links: [
-            {
-                name: "article",
-                url: "https://towardsdatascience.com/real-time-anomaly-detection-with-apache-kafka-and-python-3a40281c01c9",
-                icon: <SiMedium/>
-            },
-            {
-                name: "repo",
-                url: "https://github.com/rodrigo-arenas/kafkaml-anomaly-detection",
-                icon: <AiFillGithub/>
-            }
-        ],
-        image: "https://miro.medium.com/max/1400/1*Xem1rbG0Fa8DAhtez7mvsA.jpeg",
-        description: "Learn how to make predictions over streaming data coming from Kafka using Python.",
-        target: "_blank"
-    },
-    {
-        id: "blog-4",
-        title: "Serve a machine learning model using Sklearn, FastAPI, and Docker",
-        links: [
-            {
-                name: "article",
-                url: "https://medium.com/analytics-vidhya/serve-a-machine-learning-model-using-sklearn-fastapi-and-docker-85aabf96729b",
-                icon: <SiMedium/>
-            },
-            {
-                name: "repo",
-                url: "https://github.com/rodrigo-arenas/fast-ml-deploy",
-                icon: <AiFillGithub/>
-            }
-        ],
-        image: fastapiSklearn,
-        description: "Get your model machine learning model to production as a containerized API.",
-        target: "_blank"
-    },
-    {
         id: "blog-3",
-        title: "Are You Still Using Grid2 Search for Hyperparameters Optimization?",
+        title: "Batting Order Optimization in Baseball",
+        color: "mintcream",
         links: [
             {
-                name: "article",
-                url: "https://towardsdatascience.com/hyperparameters-tuning-from-Grid2-search-to-optimization-a09853e4e9b8",
-                icon: <SiMedium/>
+                name: "read more",
+                url: "/blogs/batting-order-optimization",
+                icon: <MdVisibility/>
             }
         ],
-        image: "https://miro.medium.com/max/1400/0*ZYC4nQw8g2dv7GCp",
-        description: "Let's discuss the ideas behind how to search in a smart fashion the hyperparameters for your machine learning models.",
-        target: "_blank"
+        image: "https://fivethirtyeight.com/wp-content/uploads/2014/04/79485557.jpg?w=575",  
+        description: "An analysis of how batting order influences the number of runs scored in R",
+        target: "_self",
     },
+
     {
         id: "blog-2",
-        title: "Tune Your Scikit-learn Model Using Evolutionary Algorithms",
+        title: "Predicting Soybean Prices uses a GARCH Process",
+        color: "mintcream",
         links: [
             {
-                name: "article",
-                url: "https://towardsdatascience.com/tune-your-scikit-learn-model-using-evolutionary-algorithms-30538248ac16",
-                icon: <SiMedium/>
+                name: "read more",
+                url: "/blogs/soybean-garch",
+                icon: <MdVisibility/>
             }
         ],
-        image: "https://miro.medium.com/max/1400/1*gmNunOZ86_URtnzuOA7oNg.jpeg",
-        description: "Scikit-learn hyperparameters tuning with evolutionary algorithms and cross-validation.",
-        target: "_blank"
+        image: "https://www.aces.edu/wp-content/uploads/2022/05/Figure-illustrative.jpg", 
+        description: "A time series analysis on soybean prices",
+        target: "_self"
     },
+
     {
         id: "blog-1",
-        title: "Manage your machine learning life cycle with MLflow in Python",
+        title: "Predicting Corn Yields in Illinois from Weather Variables",
+        color: "mintcream",
         links: [
             {
-                name: "article",
-                url: "https://medium.com/analytics-vidhya/manage-your-machine-learning-lifecycle-with-mlflow-in-python-d678d5f3c682",
-                icon: <SiMedium/>
-            },
-            {
-                name: "repo",
-                url: "https://github.com/rodrigo-arenas/mlflow-basics",
-                icon: <AiFillGithub/>
+                name: "read more",
+                url: "/blogs/corn-yield",
+                icon: <MdVisibility/>
             }
         ],
-        image: "https://miro.medium.com/max/1400/1*FhKrMpcUPeZxNsZpKNv4BA.png",
-        description: "Model lifecycle management using mlflow",
-        target: "_blank"
+        image: "https://inhabitat.com/wp-content/blogs.dir/1/files/2015/04/corn-field-889x591.jpg", 
+        description: "A time series analysis of Illinois corn yields based off of weather conditions",
+        target: "_self"
     },
+
+
     {
         id: "blog-0",
-        title: "Workforce planning optimization using Python",
+        title: "Quantifying Luck in the NBA Draft Lottery",
+        color: "mintcream",
         links: [
             {
-                name: "article",
-                url: "https://towardsdatascience.com/workforce-planning-optimization-using-python-69af0ef9011a",
-                icon: <SiMedium/>
+                name: "read more",
+                url: "/blogs/NBA",
+                icon: <MdVisibility/>
             }
         ],
-        image: "https://miro.medium.com/max/1400/1*UDnhOFK35IbAPx15wkMgVg.jpeg",
-        description: "Learn how to find the optimal number of positions needed to manage incoming traffic.",
-        target: "_blank"
-    }
+        image: "https://img.olympics.com/images/image/private/t_s_pog_staticContent_hero_lg/f_auto/primary/fgbulqf2hxe1sxnsasns", 
+        description: "Mapping out every NBA draft lottery result and associated luck in Python",
+        target: "_self"
+    },
 ]
 
 export default blogConfig

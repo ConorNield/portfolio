@@ -1,33 +1,42 @@
 import React from 'react';
-import { Card, CardHeader, CardContent, Typography, Box } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 
-const About = (props) => {
-  const { about } = props || {};
-  const { start, exit } = about || {};
-
+const About = () => {
   return (
-      <Box id="about" sx={{ my: 4 }}>
-        <Card sx={{ backgroundColor: '#263238', color: '#f5f5f5' }}>
-          <CardHeader
-              avatar={
-                <Box sx={{ display: 'flex', alignItems: 'center' }}>
-                  <Box component="span" className="iconify" data-icon="emojione:red-circle" sx={{ mr: 1 }} />
-                  <Box component="span" className="iconify" data-icon="twemoji:yellow-circle" sx={{ mr: 1 }} />
-                  <Box component="span" className="iconify" data-icon="twemoji:green-circle" />
-                </Box>
-              }
-          />
-          <CardContent sx={{ fontSize: '132%', lineHeight: '150%', backgroundColor: '#F6F6F6', color: '#8e8d8a', padding: '2rem' }}>
-            <Typography variant="body1" paragraph>
-              {start}
-            </Typography>
-            <Typography variant="body1">
-              {exit}
-            </Typography>
-          </CardContent>
-        </Card>
-      </Box>
+    <Box 
+      id="about" 
+      sx={{ 
+        my: 4, 
+        display: 'flex', 
+        justifyContent: 'center', 
+        alignItems: 'center',
+        backgroundColor: 'mintcream',
+        padding: '2rem',
+        borderRadius: '8px',
+        boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)',
+        maxWidth: '800px',
+        margin: 'auto',
+      }}
+    >
+      <Typography 
+        variant="body1" 
+        sx={{ 
+          fontSize: '1rem', 
+          lineHeight: '1.6', 
+          color: '#333', 
+          textAlign: 'left' 
+        }}
+      >
+        Hi, I'm Conor, and welcome to my portfolio website. <br/>
+        I have always been a huge nerd when it comes to data, and I am looking to pursue a career involving data <br/>
+        I am a detail-oriented and analytical statistics major with hands-on experience in data analysis, front-end development, and financial oversight. <br/>
+        I have a proven ability to lead data-driven projects in both startup and academic environments, with expertise in statistical modeling, R programming, and data visualization. <br/>
+        I am seeking a full-time entry-level data analyst position to apply my strong problem-solving skills and passion for data to generate impactful insights post-graduation.
+      </Typography>
+    </Box>
   );
 };
 
 export default About;
+
+

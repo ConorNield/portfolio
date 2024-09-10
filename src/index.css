@@ -5,7 +5,7 @@ html, body {
     font-family: "Raleway", serif !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #e5e3e3; /* Light grey background for a clean, minimalist look */
+    background-color: #a4a3a3;; /* Light grey background for a clean, minimalist look */
     color: #263238; /* Dark grey text for better visibility */
     display: flex;
     flex-direction: column;
@@ -21,7 +21,7 @@ html, body {
 .about-card {
     max-width: 1200px;
     width: 90%;
-    background-color: #ffffff; /* White background for cards */
+    background-color: #d1d1d1; /* White background for cards */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     border-radius: 8px; /* Rounded corners for a modern look */
     padding: 16px; /* Consistent padding inside cards */
@@ -39,7 +39,7 @@ html, body {
 .Typewriter {
     font-size: 1rem;
     margin-bottom: 2rem;
-    color: #757575; /* Light grey color for typewriter text */
+    color: #1f1f1f; /* Light grey color for typewriter text */
 }
 
 /* Responsive Adjustments */

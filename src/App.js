@@ -30,10 +30,10 @@ function App() {
                         <Route path="/projects" exact element={<Projects />} />
                         <Route path="/blogs" exact element={<Blogs />} />
                         <Route path="/skills" exact element={<Skills />} />
-                        <Route path="/blogs/batting-order-optimization" exact element={<BattingOrderBlog />} />
-                        <Route path="/blogs/corn-yield" exact element={<Stat429FinalProject />} />
-                        <Route path="/blogs/soybean-garch" exact element={<SoybeanGARCH />} />
-                        <Route path="/blogs/NBA" exact element={<Lottery />} />
+                        <Route path="/portfolio/blogs/batting-order-optimization" exact element={<BattingOrderBlog />} />
+                        <Route path="/portfolio/blogs/corn-yield" exact element={<Stat429FinalProject />} />
+                        <Route path="/portfolio/blogs/soybean-garch" exact element={<SoybeanGARCH />} />
+                        <Route path="/portfolio/blogs/NBA" exact element={<Lottery />} />
                     </Routes>
                 </Container>
                 <Footer />

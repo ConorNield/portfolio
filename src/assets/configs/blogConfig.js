@@ -11,7 +11,7 @@ const blogConfig = [
         links: [
             {
                 name: "read more",
-                url: "/blogs/batting-order-optimization",
+                url: "/portfolio/blogs/batting-order-optimization",
                 icon: <MdVisibility/>
             }
         ],
@@ -27,7 +27,7 @@ const blogConfig = [
         links: [
             {
                 name: "read more",
-                url: "/blogs/soybean-garch",
+                url: "/portfolio/blogs/soybean-garch",
                 icon: <MdVisibility/>
             }
         ],
@@ -43,7 +43,7 @@ const blogConfig = [
         links: [
             {
                 name: "read more",
-                url: "/blogs/corn-yield",
+                url: "/portfolio/blogs/corn-yield",
                 icon: <MdVisibility/>
             }
         ],
@@ -60,7 +60,7 @@ const blogConfig = [
         links: [
             {
                 name: "read more",
-                url: "/blogs/NBA",
+                url: "/portfolio/blogs/NBA",
                 icon: <MdVisibility/>
             }
         ],

@@ -1,6 +1,5 @@
 import React from 'react';
 import battingOrderDataFrame from "../images/battingOrderDataFrame.png"
-
 const BattingOrderBlog = () => {
     return (
         <div>

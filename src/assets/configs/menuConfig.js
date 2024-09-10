@@ -12,14 +12,14 @@ const menuConfig = {
     {
       id: "menu-0",
       title: "Home",
-      path: "/portfolio",
+      path: "/",
       icon: <AiFillHome size={30} />,
       className: "nav-text",
     },
     {
       id: "menu-1",
       title: "Projects",
-      path: "/portfolio/blogs",
+      path: "/blogs",
       icon: <FaPencilRuler size={30} />,
       className: "nav-text",
     },

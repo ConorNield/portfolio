@@ -10,14 +10,12 @@ import BattingOrderBlog from "./assets/configs/battingOrderBlog.js";
 import Stat429FinalProject from './assets/configs/cornYieldPrediction.js';
 import SoybeanGARCH from './assets/configs/soybeanGARCH.js';
 import Lottery from './assets/configs/NBALottery.js';
-import Picks from './assets/configs/NBA_Picks.csv';
 import './App.css';
 import React from 'react';
 
 function App() {
-    // Use `basename` only in production for GitHub Pages
     const Router = process.env.NODE_ENV === 'production' ? HashRouter : BrowserRouter;
-    const basename = process.env.NODE_ENV === 'production' ? '/portfolio' : '/';
+    const basename = process.env.NODE_ENV === 'production' ? '/portfolio' : ''; // No basename for local
 
     return (
         <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
@@ -33,7 +31,6 @@ function App() {
                         <Route path="/blogs/corn-yield" element={<Stat429FinalProject />} />
                         <Route path="/blogs/soybean-garch" element={<SoybeanGARCH />} />
                         <Route path="/blogs/NBA" element={<Lottery />} />
-                        <Route path="/blogs/NBA/Picks" element={<Picks />} />
                     </Routes>
                 </Container>
                 <Footer />
@@ -43,6 +40,7 @@ function App() {
 }
 
 export default App;
+
 
 
 

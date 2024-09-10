@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.11af8948.css",
-    "main.js": "/portfolio/static/js/main.f948838b.js",
+    "main.js": "/portfolio/static/js/main.4fbae898.js",
     "static/media/Garch_forecast.png": "/portfolio/static/media/Garch_forecast.8db9a59851259b37b382.png",
     "static/media/battingOrderDataFrame.png": "/portfolio/static/media/battingOrderDataFrame.0bc1af43c69459a77859.png",
     "static/media/sklearn_genetic_opt.png": "/portfolio/static/media/sklearn_genetic_opt.15b892adf6368a965618.png",
@@ -20,7 +20,6 @@
     "static/media/Garch_parameters.png": "/portfolio/static/media/Garch_parameters.2a2f933fde901ef75598.png",
     "static/media/Ljung_Box_Garch.png": "/portfolio/static/media/Ljung_Box_Garch.a2649ce75b0cfdf43faf.png",
     "static/media/Lottery_table.png": "/portfolio/static/media/Lottery_table.a7f5b35d9a42a3cf6af9.png",
-    "static/media/NBA_Picks.csv": "/portfolio/static/media/NBA_Picks.f6e0375ecbab19f08ced.csv",
     "static/media/hist_sb_ret.png": "/portfolio/static/media/hist_sb_ret.3790742f88b8fdb5e38f.png",
     "static/media/SB_rol_vol_ACF.png": "/portfolio/static/media/SB_rol_vol_ACF.89c40e42814be6922085.png",
     "static/media/sqrt_test_2.png": "/portfolio/static/media/sqrt_test_2.527917eafb4512d07b5c.png",
@@ -32,10 +31,10 @@
     "static/media/corn_en.png": "/portfolio/static/media/corn_en.3c2db2b39474a283d377.png",
     "index.html": "/portfolio/index.html",
     "main.11af8948.css.map": "/portfolio/static/css/main.11af8948.css.map",
-    "main.f948838b.js.map": "/portfolio/static/js/main.f948838b.js.map"
+    "main.4fbae898.js.map": "/portfolio/static/js/main.4fbae898.js.map"
   },
   "entrypoints": [
     "static/css/main.11af8948.css",
-    "static/js/main.f948838b.js"
+    "static/js/main.4fbae898.js"
   ]
 }

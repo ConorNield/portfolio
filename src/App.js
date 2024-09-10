@@ -11,7 +11,6 @@ import BattingOrderBlog from "./assets/configs/battingOrderBlog.js"
 import Stat429FinalProject from './assets/configs/cornYieldPrediction.js';
 import SoybeanGARCH from './assets/configs/soybeanGARCH.js';
 import Lottery from './assets/configs/NBALottery.js';
-import Picks from './assets/configs/NBA_Picks.csv'
 import './App.css';
 
 import React from 'react';
@@ -35,7 +34,6 @@ function App() {
                         <Route path="/blogs/corn-yield" exact element={<Stat429FinalProject />} />
                         <Route path="/blogs/soybean-garch" exact element={<SoybeanGARCH />} />
                         <Route path="/blogs/NBA" exact element={<Lottery />} />
-                        <Route path="/blogs/NBA/Picks" exact element={<Picks />} />
                     </Routes>
                 </Container>
                 <Footer />
@@ -45,5 +43,6 @@ function App() {
 }
 
 export default App;
+
 
 

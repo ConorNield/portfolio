@@ -19,7 +19,7 @@ const menuConfig = {
     {
       id: "menu-1",
       title: "Projects",
-      path: "/blogs",
+      path: "/portfolio/blogs",
       icon: <FaPencilRuler size={30} />,
       className: "nav-text",
     },

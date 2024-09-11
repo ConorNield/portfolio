@@ -12,7 +12,7 @@ const menuConfig = {
     {
       id: "menu-0",
       title: "Home",
-      path: "/",
+      path: "/portfolio",
       icon: <AiFillHome size={30} />,
       className: "nav-text",
     },

@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { Box, Container } from '@mui/material';
 import ReactGA from 'react-ga';
 import NavBar from './components/NavBar/NavBar';

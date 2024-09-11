@@ -11,7 +11,7 @@ const blogConfig = [
         links: [
             {
                 name: "read more",
-                url: "/blogs/batting-order-optimization",
+                url: "#/blogs/batting-order-optimization",
                 icon: <MdVisibility/>
             }
         ],

@@ -1,4 +1,11 @@
+
 import React from 'react';
+import { FaChartLine } from 'react-icons/fa';
+import { FaBeer } from 'react-icons/fa';
+import { FaMoneyBillWave } from 'react-icons/fa';
+import { FaCoffee } from 'react-icons/fa';
+import { BiMath } from 'react-icons/bi';
+import { MdOutlineSportsFootball } from 'react-icons/md';
 
 const homeConfig = {
     greeting: (
@@ -55,11 +62,12 @@ const homeConfig = {
                 "Led data analysis efforts at a startup as the sole data analyst ",
                 "Developed a metrics page, using typescript, that automated basic data analytics to visualize an online events performance",
                 "Developed seamless data integration system that allowed raw data to transition directly to universities",
-                "Worked directly with two universities to analyze respective events performance",
-                "Implemented a variety of bug fixes to Forumms website",
+                "Worked directly with two universities to analyze respective events performance"
             ],
             date: "June 2024-August 2024",
             location: "Lisbon, Portugal",
+            icon: <FaChartLine/>,
+            tags: ["Typescript", "React", "Tableu", "Data Visualization", "Buisness Inteligence", "Data Communication"]
         },
         {
             id: "work-4",
@@ -73,7 +81,8 @@ const homeConfig = {
             ],
             date: "April 2022-Present",
             location: "Champaign, Illinois",
-            tags: []
+            icon: <FaBeer/>,
+            tags: ["Customer Service", "Time Management", "Security"]
         },
         {
             id: "work-3",
@@ -87,29 +96,35 @@ const homeConfig = {
             ],
             date: "November 2022-November 2023",
             location: "Champaign, Illinois",
-            tags: []
+            icon: <FaMoneyBillWave/>,
+            tags: ["Excel", "Budgeting", "Accounting", "Financial Reporting", "Leadership"]
         },
         {
             id: "work-2",
             title: "Barista",
             company: "Starbucks",
             description: [
-                "Memorized every drink recipe, and perfected customer service skills"
+                "Memorized and prepared a wide variety of Starbucks drink recipes, ensuring high-quality and consistent customer service in a fast-paced environment.",
+                "Perfected customer service skills, addressing customer needs promptly, maintaining a friendly attitude, and handling high-volume orders during peak hours."
             ],
             date: "May 2022-August 2022",
             location: "Chicago, Illinois",
-            tags: []
+            icon: <FaCoffee/>,
+            tags: ["Customer Service", "Teamwork", "Multitasking"]
         },
         {
             id: "work-1",
             title: "Math Tutor",
             company: "Mathnasium",
             description: [
-                "Tutored hundreds of children, ages 4-18 in a variety of math skills ranging from simple addition to SAT prep by creating personalized learning material and lesson plans"
+                "Tutored hundreds of students ages 4 to 18 ranging from basic arithmetic to SAT preparation.",
+                "Created custom learning materials tailored to each student’s needs, resulting in significant academic improvement and increased confidence in math.",
+                "Adapted teaching strategies for diverse learning styles, ensuring each student could grasp challenging mathematical concepts."
             ],
             date: "March 2021-August 2021",
             location: "Oak Park, Illinois",
-            tags: []
+            icon: <BiMath/>,
+            tags: ["Math", "Communication", "Teaching"]
         },
         {
             id: "work-0",
@@ -122,7 +137,8 @@ const homeConfig = {
             ],
             date: "December 2019-March 2020",
             location: "River Forest, Illinois",
-            tags: []
+            icon: <MdOutlineSportsFootball/>,
+            tags: ["Leadership", "Inclusion", "Teamwork"]
         }
     ],
 

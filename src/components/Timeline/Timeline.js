@@ -31,18 +31,8 @@ const CustomTimeline = (props) => {
                             </Typography>
                         </TimelineOppositeContent>
                         <TimelineSeparator>
-                            <TimelineDot
-                                sx={{
-                                    backgroundColor: 'black',
-                                    width: 25,
-                                    height: 25,
-                                    border: '2px solid white',
-                                    display: 'flex',
-                                    alignItems: 'center',
-                                    justifyContent: 'center'
-                                }}
-                            >
-                                <Box sx={{ fontSize: '24px', color: 'mintcream' }}>
+                        <TimelineDot sx={{ backgroundColor: '#263238', width: 48, height: 48, border: '2px solid white', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                <Box sx={{ fontSize: '24px', color: '#FFFFFF' }}>
                                     {icon}
                                 </Box>
                             </TimelineDot>
@@ -75,7 +65,7 @@ const CustomTimeline = (props) => {
                                 <Typography variant="h5" component="h1" sx={{ color: '#263238', textAlign: 'center', mb: 1, fontFamily: 'Roboto, sans-serif', fontWeight: 600 }}>
                                     {title}
                                 </Typography>
-                                <Typography variant="subtitle2" sx={{ fontSize: '15px', textAlign: 'center', fontFamily: 'Open Sans, sans-serif', color: 'gray' }}>
+                                <Typography variant="subtitle2" sx={{ fontSize: '18px', textAlign: 'center', fontFamily: 'Open Sans, sans-serif', color: 'gray' }}>
                                     {company}
                                 </Typography>
                                 {description.map((line, idx) => (

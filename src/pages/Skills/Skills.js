@@ -15,6 +15,15 @@ const Skills = () => {
                     </Box>
 
             </Box>
+            <Box sx={{ textAlign: 'center', py: 4, backgroundColor: 'mintcream', borderRadius: '15px', boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.1)', mb: 6 }}>
+                <Typography variant="h3" component="h1" sx={{ color: '#263238', py: 2 }}>
+                    <strong>Soft Skills</strong>
+                </Typography>
+                    <Box sx={{ display: 'flex', justifyContent: 'center', mt: 4 }}>
+                        <SkillsItems config={skillsConfig.softSkills} />
+                    </Box>
+
+            </Box>
 
         </section>
     );

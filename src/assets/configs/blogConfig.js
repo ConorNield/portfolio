@@ -27,7 +27,7 @@ const blogConfig = [
         links: [
             {
                 name: "read more",
-                url: "/blogs/soybean-garch",
+                url: "#/blogs/soybean-garch",
                 icon: <MdVisibility/>
             }
         ],
@@ -43,7 +43,7 @@ const blogConfig = [
         links: [
             {
                 name: "read more",
-                url: "/blogs/corn-yield",
+                url: "#/blogs/corn-yield",
                 icon: <MdVisibility/>
             }
         ],
@@ -60,7 +60,7 @@ const blogConfig = [
         links: [
             {
                 name: "read more",
-                url: "/blogs/NBA",
+                url: "#/blogs/NBA",
                 icon: <MdVisibility/>
             }
         ],

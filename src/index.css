@@ -5,8 +5,8 @@ html, body {
     font-family: "Raleway", serif !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #a4a3a3;; /* Light grey background for a clean, minimalist look */
-    color: #263238; /* Dark grey text for better visibility */
+    background-color: #adacac; /* Light grey background */
+    color: #333333; /* Dark grey text for better visibility */
     display: flex;
     flex-direction: column;
 }
@@ -21,17 +21,17 @@ html, body {
 .about-card {
     max-width: 1200px;
     width: 90%;
-    background-color: #d1d1d1; /* White background for cards */
+    background-color: #dddddd; /* White background for cards */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    border-radius: 8px; /* Rounded corners for a modern look */
-    padding: 16px; /* Consistent padding inside cards */
+    border-radius: 8px; /* Rounded corners */
+    padding: 16px;
 }
 
 /* Heading Style */
 .heading {
     font-size: 2rem;
     text-align: center;
-    color: #263238; /* Dark grey color for headings */
+    color: #161621; /* Navy blue for headings */
     padding: 2rem 0;
 }
 
@@ -39,7 +39,7 @@ html, body {
 .Typewriter {
     font-size: 1rem;
     margin-bottom: 2rem;
-    color: #1f1f1f; /* Light grey color for typewriter text */
+    color: #333333; /* Dark grey for typewriter text */
 }
 
 /* Responsive Adjustments */
@@ -62,14 +62,17 @@ html, body {
 
 /* Links */
 a {
-    color: #1e88e5; /* Subtle blue color for links */
+    color: #1E3A8A; /* Navy blue for links */
     text-decoration: none;
 }
 
+a:hover {
+    color: #6371ef; /* Green on hover */
+}
 
 /* Button Styles */
 button {
-    background-color: #263238; /* Dark grey button background */
+    background-color: #3950b8; /* Dark green button background */
     color: #ffffff; /* White text on buttons */
     padding: 10px 20px;
     border: none;
@@ -79,5 +82,17 @@ button {
 }
 
 button:hover {
-    background-color: #1e88e5; /* Blue background on hover */
+    background-color: #9a9ca0; /* Lighter green background on hover */
+}
+
+/* Text boxes (optional addition for input areas) */
+.text-box {
+    background-color: #972d2d; /* Light grey box */
+    padding: 20px;
+    border-radius: 5px;
+    color: #7b7b7b;
+    margin-bottom: 20px;
+}
+Box {
+    background-color: #702121;
 }

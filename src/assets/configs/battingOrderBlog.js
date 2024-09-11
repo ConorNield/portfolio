@@ -5,6 +5,13 @@ const BattingOrderBlog = () => {
         <div>
             <h1>Batting Order Optimization in Baseball</h1>
 
+            <h3>Author</h3>
+            <p>
+                Conor Nield<br />
+            </p>
+
+            <h2> Introudction</h2>
+
             <p>In baseball, the batting order is the sequence in which 9 batters on a team take their turns to hit the ball. The order is decided by the team's manager before the game and generally remains the same throughout.</p>
 
             <p>Each position in the batting order has different characteristics associated with it. Here is a simplified version of each batter’s general characteristics:</p>

@@ -7,7 +7,6 @@ const blogConfig = [
     {
         id: "blog-3",
         title: "Batting Order Optimization in Baseball",
-        color: "mintcream",
         links: [
             {
                 name: "read more",
@@ -22,7 +21,7 @@ const blogConfig = [
 
     {
         id: "blog-2",
-        title: "Predicting Soybean Prices uses a GARCH Process",
+        title: "Predicting Soybean Prices Using a GARCH Process",
         color: "mintcream",
         links: [
             {

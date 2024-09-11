@@ -1,22 +1,16 @@
-import React from 'react'
+import React from 'react';
 
 const homeConfig = {
-
     greeting: (
         <div>
             <h1 className="heading">
-                <strong className="main-name"> Conor Nield's Personal Website</strong>
+                <strong className="main-name"> Hi! I'm Conor Nield</strong>
             </h1>
             <p style={{fontSize: '1.0rem', color: 'black', marginTop: '-30px'}}>
                 University of Illinois at Urbana-Champaign <br/>
-                Bachelor in Statistics <br/>
+                Majoring in Statistics <br/>
                 Minoring in Business & Political Science <br/>
                 Expected Graduation: May 2025
-            </p>
-            <p className="email" style={{ fontSize: '1.0rem', color: 'mintcream', marginTop: '0px' }}>
-                <a href="mailto:conornield@gmail.com" style={{ color: '#1e88e5', textDecoration: 'none' }}>
-                    conornield@gmail.com
-                </a>
             </p>
         </div>
     ),
@@ -27,12 +21,31 @@ const homeConfig = {
         "A Front End Developer",
         "A Huge Data Nerd",
     ],
+
     about: {
         start: `Hi, I'm Conor, and I am currently a Senior at the University of Illinois majoring in Statistics and minoring in Business and Political Science. 
                 I am currently looking for an entry-level job in the field of data analytics following my graduation in spring 2025.`
-      },
-      
-        
+    },
+
+    // Add the email and resume link here
+    contact: (
+        <div style={{ textAlign: 'center', marginTop: '2rem' }}>
+            <p style={{ fontSize: '1.0rem', color: '#333' }}>
+                Email: 
+                <a href="mailto:conornield@gmail.com" style={{ color: '#1e88e5', textDecoration: 'none', marginLeft: '5px' }}>
+                    conornield@gmail.com
+                </a>
+            </p>
+            <p style={{ fontSize: '1.0rem', color: '#333' }}>
+                Source code: 
+                <a href="https://rodrigo-arenas.github.io/portfolio" style={{ color: '#1e88e5', textDecoration: 'none', marginLeft: '5px' }}>
+                    https://rodrigo-arenas.github.io/portfolio
+                </a>
+            </p>
+            
+        </div>
+    ),
+
     workTimeline: [
         {
             id: "work-5",
@@ -123,7 +136,6 @@ const homeConfig = {
             </p>
         </div>
     )
-}
+};
 
-
-export default homeConfig
+export default homeConfig;

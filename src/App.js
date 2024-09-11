@@ -13,6 +13,7 @@ import SoybeanGARCH from './assets/configs/soybeanGARCH.js';
 import Lottery from './assets/configs/NBALottery.js';
 import Picks from './assets/configs/NBA_Picks.csv'
 import './App.css';
+import WorkTimeline from './assets/configs/timelineConfig.js';
 
 import React from 'react';
 
@@ -36,6 +37,7 @@ function App() {
                         <Route path="/blogs/soybean-garch" exact element={<SoybeanGARCH />} />
                         <Route path="/blogs/NBA" exact element={<Lottery />} />
                         <Route path="/blogs/NBA/Picks" exact element={<Picks />} />
+                        <Route path="/timeline" exact element={<WorkTimeline />} />
                     </Routes>
                 </Container>
                 <Footer />

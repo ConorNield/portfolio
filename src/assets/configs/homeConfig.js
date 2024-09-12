@@ -75,7 +75,7 @@ const homeConfig = {
             company: "Kams",
             description: [
                 "Worked my way up from a doorman to a bartender in less than a year",
-                "Bartender: Succesfully handled the responsibility of bringing people to my shifts, sometimes facilitating more than 100 open tabs at once",
+                "Bartender: Succesfully handled the responsibility of bringing customers to my shifts, sometimes facilitating more than 100 open tabs at once",
                 "Barback: Maintained inventory of liquor, beer, and ice, catering to the needs of up to 8 bartenders simultaneously while upholding cleanliness standards in the workspace",
                 "Doorman: Maintained a safe environment for customers and coworkers, and handled tough situations with calmness and clarity"
             ],
@@ -135,7 +135,7 @@ const homeConfig = {
                 "Took special steps to include several children with special needs",
                 "Managed the training and supervision of other camp counselors and presided over park district facilities and youth sports"
             ],
-            date: "December 2019-March 2020",
+            date: "December 2019-May 2021",
             location: "River Forest, Illinois",
             icon: <MdOutlineSportsFootball/>,
             tags: ["Leadership", "Inclusion", "Teamwork"]

@@ -14,14 +14,37 @@ import Lottery from './assets/configs/NBALottery.js';
 import Picks from './assets/configs/NBA_Picks.csv'
 import './App.css';
 import WorkTimeline from './assets/configs/timelineConfig.js';
-
+import { useEffect } from 'react';
 import React from 'react';
 
 if (typeof process.env.REACT_APP_TRACKING_ID !== 'undefined') {
     ReactGA.initialize(process.env.REACT_APP_TRACKING_ID);
 }
 
+//function usePageViews() {
+    //const location = useLocation();
+
+    //useEffect(() => {
+        //ReactGA.pageview(location.pathname + location.search);
+    //}, [location]);
+//}
+
 function App() {
+    useEffect(() => {
+        const script = document.createElement('script');
+        script.src = "https://www.googletagmanager.com/gtag/js?id=G-HY9FBXSN4P";
+        script.async = true;
+        document.head.appendChild(script);
+
+        const scriptContent = document.createElement('script');
+        scriptContent.innerHTML = `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){window.dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-HY9FBXSN4P');
+        `;
+        document.head.appendChild(scriptContent);
+    }, []); // Empty dependency array ensures this runs once on component mount
     return (
         <Box sx={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
             <Router>

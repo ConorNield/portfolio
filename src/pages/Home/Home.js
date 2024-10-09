@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Grid2, Box, Typography } from '@mui/material';
 import About from '../../components/About';
 import homeConfig from '../../assets/configs/homeConfig';
+<meta name="google-site-verification" content="L93EB3gGDU1QBIhoJy6pgnZ-iaBdJ2w8cOHCLGMfVbM" />
 
 const Home = () => {
     return (
